@@ -16,9 +16,10 @@ def main():
             result = int(input())
         except ValueError: 
             print("You must enter a number from 1 to 5. Please try again.\n")
+            continue
         match result:
             case 1:
-                pass
+                monitoring.main()
             case 2:
                 pass
             case 3:
